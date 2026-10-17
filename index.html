@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venerable Pedro Díez Gil de la Virgen del Carmen</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Rostros de la Santidad Escolapia</h1>
+        <h2>Venerable Pedro Diez Gil de la Virgen del Carmen</h2>
+        <p>Su vida, su obra y su legado</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#obra">Su obra</a></li>
+            <li><a href="#testimonio">Su testimonio</a></li>
+            <li><a href="#legado">Su legado</a></li>
+            <li><a href="#quiz">Cuestionario</a></li>
+            <li><a href="#fuentes">Fuentes</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor">
+
+        <section id="biografia">
+            <h2>Biografia</h2>
+
+            <p>
+                Pedro Díez Gil nació el 14 de abril de 1913 en Pampliega,
+        un pueblo de Burgos, España. Debido al trabajo de su padre
+        como ferroviario, su familia tuvo que trasladarse a distintas
+        localidades. Durante su infancia vivió en Tolosa, donde
+        estudió en un colegio de las Escuelas Pías. Allí conoció
+        a los escolapios y comenzó a descubrir su vocación religiosa
+        y su interés por la educación.
+
+            <div class="imagen-santo">
+                <img src="./img/venerablepedro.jfif"
+                     alt="Fotografía del Venerable Pedro Díez Gil de la Virgen del Carmen">
+            </div>
+
+            <p>
+                En 1926 comenzó su formación escolapia en Zaragoza.
+                Continuó sus estudios en Peralta de la Sal, Irache y
+                Albelda de Iregua. Fue ordenado sacerdote en 1937 y,
+                tras servir como capellán durante la Guerra Civil,
+                se dedicó a la enseñanza en las Escuelas Pías de Zaragoza.
+                Falleció en esa ciudad el 14 de diciembre de 1983.
+            </p>
+        </section>
+
+        <section id="obra">
+            <h2>Su obra educativa</h2>
+
+            <p>
+                El padre Pedro dedicó su vida a la educación de los
+                más pequeños. Como maestro escolapio, enseñó a leer
+                y escribir y acompañó a sus alumnos en su formación
+                humana y cristiana.
+            </p>
+
+            <p>
+                Junto con el padre Joaquín Erviti Lazcano, desarrolló
+                un método de lectoescritura que utilizaba gestos,
+                sonidos y dibujos para facilitar el aprendizaje.
+                Su tarea también incluyó la preparación de los niños
+                para la Primera Comunión.
+            </p>
+        </section>
+
+        <section id="testimonio">
+            <h2>Su testimonio de fe</h2>
+
+            <p>
+                Su fe se expresaba en la oración, la Eucaristía
+                y el servicio cotidiano. Además de enseñar,
+                visitaba enfermos, atendía confesiones y acompañaba
+                a las personas que acudían a él.
+            </p>
+
+            <p>
+                Siguiendo el ejemplo de San José de Calasanz,
+                prestó especial atención a los niños y a las
+                familias más necesitadas del barrio de San Pablo,
+                en Zaragoza. Su vida mostró cómo la humildad
+                y la dedicación pueden convertirse en una forma
+                de vivir el Evangelio.
+            </p>
+        </section>
+
+        <section id="legado">
+            <h2>Su legado</h2>
+
+            <p>
+                El legado del padre Pedro permanece en las
+                generaciones de alumnos que acompañó y en el
+                recuerdo de las familias a las que ayudó.
+                Su ejemplo invita a educar con paciencia,
+                cercanía y atención a las necesidades de cada persona.
+            </p>
+
+            <p>
+                El 20 de mayo de 2023, el papa Francisco autorizó
+                el reconocimiento de sus virtudes heroicas,
+                por lo que recibió el título de Venerable.
+                Este reconocimiento destaca su vida cristiana
+                ejemplar y constituye una etapa en su camino
+                hacia la beatificación.
+            </p>
+        </section>
+
+        <section id="quiz">
+            <h2>¿Cuánto aprendiste?</h2>
+
+            <p>Respondé las siguientes preguntas.</p>
+
+            <div class="pregunta">
+                <p><strong>1. ¿A qué orden perteneció Pedro Díez Gil?</strong></p>
+
+                <label>
+                    <input type="radio" name="p1" value="a">
+                    A las Escuelas Pías
+                </label>
+
+                <label>
+                    <input type="radio" name="p1" value="b">
+                    A una orden militar
+                </label>
+
+                <label>
+                    <input type="radio" name="p1" value="c">
+                    A ninguna orden religiosa
+                </label>
+            </div>
+
+            <div class="pregunta">
+                <p><strong>2. ¿A qué dedicó gran parte de su vida?</strong></p>
+
+                <label>
+                    <input type="radio" name="p2" value="a">
+                    A la arquitectura
+                </label>
+
+                <label>
+                    <input type="radio" name="p2" value="b">
+                    A la educación de los más pequeños
+                </label>
+
+                <label>
+                    <input type="radio" name="p2" value="c">
+                    A la navegación
+                </label>
+            </div>
+
+            <div class="pregunta">
+                <p><strong>3. ¿Qué santo inspiró su misión educativa escolapia?</strong></p>
+
+                <label>
+                    <input type="radio" name="p3" value="a">
+                    San Francisco de Asís
+                </label>
+
+                <label>
+                    <input type="radio" name="p3" value="b">
+                    San Ignacio de Loyola
+                </label>
+
+                <label>
+                    <input type="radio" name="p3" value="c">
+                    San José de Calasanz
+                </label>
+            </div>
+
+            <button id="corregir" type="button">
+                Corregir respuestas
+            </button>
+
+            <p id="resultado"></p>
+        </section>
+
+        <section id="fuentes">
+            <h2>Fuentes consultadas</h2>
+
+            <p>
+                Para realizar este trabajo consultamos información
+                de las Escuelas Pías y del Dicasterio para las
+                Causas de los Santos sobre la vida del Venerable
+                Pedro Díez Gil de la Virgen del Carmen.
+            </p>
+
+            <ul>
+                <li>
+                    <a href="https://scolopi.org/siervo-de-dios-pedro-diez-gil-escolapio-1913-1983/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Escuelas Pías: vida y obra de Pedro Díez Gil
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.causesanti.va/it/venerabili/pedro-de-la-virgen-del-carmen-al-secolo-pedro-diez-gil.html"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Dicasterio para las Causas de los Santos:
+                        Pedro de la Virgen del Carmen
+                    </a>
+                </li>
+            </ul>
+
+            <p>
+                También incluimos lo trabajado en las clases de Catequesis con nuestro Hermano Santiago Catalan.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto: Rostros de la Santidad Escolapia</p>
+        <p>Ambar Kahale y Martina Lovece</p>
+    </footer>
+
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>
