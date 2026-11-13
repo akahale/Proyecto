@@ -30,10 +30,40 @@ boton.addEventListener("click", function() {
 
     var resultado = document.getElementById("resultado");
 
-    resultado.textContent = "Obtuviste " + puntaje +
-        " de 3 respuestas correctas.";
+   var respuesta4 = document.querySelector(
+        'input[name="p4"]:checked'
+    );
 
-    if (puntaje == 3) {
+    var respuesta5 = document.querySelector(
+        'input[name="p5"]:checked'
+    );
+
+    if (respuesta1 != null && respuesta1.value == "b") {
+        puntaje = puntaje + 1;
+    }
+
+    if (respuesta2 != null && respuesta2.value == "a") {
+        puntaje = puntaje + 1;
+    }
+
+    if (respuesta3 != null && respuesta3.value == "c") {
+        puntaje = puntaje + 1;
+    }
+
+    if (respuesta4 != null && respuesta4.value == "b") {
+        puntaje = puntaje + 1;
+    }
+
+    if (respuesta5 != null && respuesta5.value == "a") {
+        puntaje = puntaje + 1;
+    }
+
+    var resultado = document.getElementById("resultado");
+
+    resultado.textContent = "Obtuviste " + puntaje +
+        " de 5 respuestas correctas.";
+
+    if (puntaje == 5) {
         resultado.textContent = resultado.textContent +
             " ¡Excelente!";
     } else {
